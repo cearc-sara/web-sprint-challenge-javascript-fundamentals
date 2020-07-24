@@ -23,9 +23,10 @@ myFunction();
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 function summation(num){
+  let sum = 0;
   for(let i = 0; i < num; i++){
-     num = num += 1;
+     sum =+ i;
   }
-  return num;
+  return sum;
 }
 console.log(summation(4));

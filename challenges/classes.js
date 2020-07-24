@@ -18,7 +18,7 @@ class CubeMaker extends CuboidMaker{
         super(attr);
 
     }
-    volCube()
+    
 }
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
